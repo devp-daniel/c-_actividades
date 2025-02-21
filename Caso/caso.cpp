@@ -9,7 +9,7 @@ int main ()
     int referencia;
     char descripcion[50];
     int talla;
-    char disponibildad;
+    char disponibilidad;
     int costo;
     int precio_venta;
 
@@ -22,7 +22,7 @@ int main ()
     cout<<"Digita la talla... " << endl;
     cin>>talla;
     cout<<"Digita la letra si esta disponible o no para la venta S/N... " << endl;
-    cin>>disponibildad;
+    cin>>disponibilidad;
     cout<<"Digita el costo del zapato... " << endl;
     cin>>costo;
     cout<<"Digita el precio de venta del zapato... " << endl;
@@ -36,7 +36,7 @@ int main ()
     cout<<"REFERENCIA: "<< referencia << endl;
     cout<<"DESCRIPCION: "<< descripcion << endl;
     cout<<"TALLA: "<< talla << endl;
-    cout<<"DISPONIBILIDAD: "<< disponibildad << endl;
+    cout<<"DISPONIBILIDAD: "<< disponibilidad << endl;
     cout<<"COSTO: "<< costo << endl;
     cout<<"PRECIO: "<< precio_venta << endl;
     cout<<" " << endl;
