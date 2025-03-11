@@ -4,7 +4,6 @@ using namespace std;
 
 int main ()
 {
-    //Variables
     int edad;
 
     cout<<"Digite la edad de su hijo: ";
