@@ -14,7 +14,8 @@ int main()
     cout << "Digite la tercera nota: ";
     cin >> nota3;
     cout << "Digite la cuarta nota: ";
-    cin >> nota4;
+    cin >> nota4; 
+    cout << " " << endl;
 
     promedio = (nota1 + nota2 + nota3 + nota4) / 4.0;
 
@@ -33,6 +34,7 @@ int main()
         cout << "Aprobado" << endl;
     }
 
+    cout << " " << endl;
     cout << "Daniel Alba" << endl;
 
     system("pause");
